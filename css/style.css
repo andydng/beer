@@ -524,13 +524,22 @@
 			color: white;
 		}
 
+		.wrapper.style3.hops {
+			padding-top:12em;
+			background: #82b440;
+			text-align: center;
+			color: white;
+			height:400px;
+		}
+
 			.wrapper.style3 .container {
 				padding-left: 6em;
 				padding-right: 6em;
 			}
 
 			.wrapper.style3 p {
-				font-size: 1.6em;
+				font-size: 1em;
+				padding:1em;
 			}
 
 		.wrapper.style4 {
