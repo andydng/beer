@@ -117,10 +117,7 @@ var doughnutData = [
 
       ];
 
-      window.onload = function(){
-        var ctx = document.getElementById("chart-area").getContext("2d");
-        window.myDoughnut = new Chart(ctx).Doughnut(doughnutData, {responsive : true});
-      };
+      
 
 function createChart() {
   data = {
@@ -156,4 +153,9 @@ function createChart() {
   var ctx = cht.getContext('2d');
   var barChart = new Chart(ctx).Bar(data,{responsive : true});
 }
-window.onload = createChart;
+//window.onload = createChart;
+window.onload = function(){
+  var ctx = document.getElementById("chart-area").getContext("2d");
+  window.myDoughnut = new Chart(ctx).Doughnut(doughnutData, {responsive : true});
+  createChart(false);
+};
