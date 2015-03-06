@@ -82,11 +82,13 @@
 		font-size:2em;
 		font-style:italic;
 		padding-bottom:5em;
+		line-height: 1.5em;
 	}
 
 	h3 {
 		font-size: 1.25em;
 	}
+
 
 	sub {
 		font-size: 0.8em;
@@ -123,8 +125,9 @@
 	}
 
 		header.major h2 {
-			font-size: 2.6em;
+			font-size: 2em;
 			font-weight: 900 italic;
+			line-height: 1.2em;
 		}
 
 		header.major .byline {
@@ -532,6 +535,16 @@
 			color: white;
 		}
 
+		.wrapper.style3.you {
+			min-height: 600px;
+		}
+
+		.wrapper.style3.you img{
+			width:50%;
+			margin-left: 25%;
+			margin-right: 25%;
+		}
+
 
 		.wrapper.style3.hops {
 			padding-top:8em;
@@ -608,6 +621,10 @@
 					border: 10px solid;
 					border-color: white;
 				}
+
+	#process img{
+		width:100%;
+	}
 
 /* Header */
 
