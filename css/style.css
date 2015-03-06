@@ -533,12 +533,43 @@
 			min-height:400px;
 		}
 
+<<<<<<< Updated upstream
 		.wrapper.style3.hops img, .wrapper.style3.barley img{
+=======
+		.wrapper.style3.barley {
+			padding-top:10em;
+			padding-bottom:4em;
+			background: #82b440;
+			text-align: center;
+			color: white;
+			min-height:400px;
+		}
+
+		.wrapper.style3.barley img{
+>>>>>>> Stashed changes
 			width:40%;
 			margin-right:30%;
 			margin-left:30%;
 		}
 
+		.wrapper.style3.ingredients {
+			padding-top:12em;
+			padding-bottom:4em;
+			background: #82b440;
+			text-align: center;
+			color: white;
+			min-height:600px;
+		}
+
+		.wrapper.style3.ingredients img{
+			width:100%;
+		}
+
+		.wrapper.style3.hops img{
+			width:40%;
+			margin-right:30%;
+			margin-left:30%;
+		}
 
 
 			.wrapper.style3 .container {
@@ -906,7 +937,8 @@
 	}
 
 	.s2 {
-		background-color: #F09000 !important;
+		background-color: #FFFFFF !important;
+		color: #353535 !important;
 	}
 
 	.s3 {
@@ -914,6 +946,17 @@
 		color: #353535 !important;
 	}
 
+	.s3 p{
+		font-family:'Merriweather', serif;
+		font-weight: 300;
+		font-size:3em;
+	}
+
+	.ingredients {
+		background: #222222 url(../images/ingredients_bg.jpg) no-repeat !important;
+		background-size: cover !important;
+		color: #FFFFFF !important;
+	}	
 
 	.barley {
 		background: #222222 url(../images/barley_bg_edited.jpg) no-repeat !important;
