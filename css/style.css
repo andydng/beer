@@ -960,18 +960,6 @@
 		font-weight: 500;
 	}
 	
-.parallax-window {
-    min-height: 600px;
-    background: transparent;
-}
-
-.dat {
-	position:absolute;
-	margin-top: -600px;
-}
-
-.bgnone {
-	position:absolute;
-	margin-top: -100%;
-	background-color:transparent !important;
-}
+ #footer {
+ 	padding: 1em 0;
+ }
