@@ -13,44 +13,6 @@ $(function() {
   });
 });
 
-/* BARGRAPH of BARLEY */
-
-/*    
-var data = {
-    labels: [ "Russia", 
-              "Ukraine", 
-              "France", 
-              "Germany", 
-              "Spain", 
-              "Australia", 
-              "Canada",
-              "Turkey",
-              "United Kingdom",
-              "Argentina"],
-    datasets: [
-        {
-            label: "My First dataset",
-            fillColor: "rgba(220,220,220,0.5)",
-            strokeColor: "rgba(220,220,220,0.8)",
-            highlightFill: "rgba(220,220,220,0.75)",
-            highlightStroke: "rgba(220,220,220,1)",
-            data: [ 16938000, 
-                    9097700, 
-                    8775000, 
-                    8733800, 
-                    8328200, 
-                    7994720, 
-                    7755700, 
-                    7600000, 
-                    5494000, 
-                    4076940]
-        }]};
-
-        window.onload = function(){
-  var canv = document.getElementById("barley-chart").getContext("2d");
-  window.myBarChart = new Chart(canv).Bar(data, {responsive:true});
-};*/
-
 /* DOUGHNUT of HOPS*/
 
 var doughnutData = [

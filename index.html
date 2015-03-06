@@ -26,6 +26,7 @@
 		<script src="js/script.js"></script>
 		<script src="js/jquery.fadethis.min.js"></script>
 		<script src="js/Chart.js"></script>
+		<script src="js/parallax.js"></script>
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 
 	</head>
@@ -142,7 +143,7 @@
 			<div class="wrapper style3 barley">
 				<section class="container slide-bottom">
 					<header class="major">
-						<h2>Barley</h2>
+						<img src="images/barley.png" alt="Barley">
 					</header>
 				</section>
 			</div>
@@ -164,7 +165,7 @@
 					</div>	
 				</section>
 			</div>
-			
+
 			<!-- Hops -->
 			<div class="wrapper style3 hops">
 				<section class="container slide-bottom">
@@ -201,36 +202,43 @@
 				</section>
 			</div>
 
-			<div class="wrapper style4 malt">
-				<section class="container slide-bottom">
-					<header class="major">
-						<h2>Mashing</h2>
-					</header>
+			
+			<div class="parallax-window" data-parallax="scroll" data-image-src="images/mash_bg_edited.jpg" data-z-index="0"></div>
+			<!--DAT DIV has position: absolute; margin-top-600px play with the css -->
+			<div class="dat">
+				<div class="wrapper style4 bgnone">
+					<section class="container">
+						<header class="major">
+							<h2>Mashing</h2>
+						</header>
+						<div class="row">
+							<div class="4u">
 
-					<div class="row">
-						<div class="4u">
-
-							<h3>Mash/Coat</h3>						<span class="image fit"><a href="#" class="image"><img src="http://placehold.it/200x140" alt=""></a></span>
-							<p>The first step in brewing beer is mashing. This where we coax the sweet, sweet sugar out of malted barley.</p>
+								<h3>Mash/Coat</h3>
+								<span class="image fit"><a href="#" class="image"><img src="http://placehold.it/200x140" alt=""></a></span>
+								<p>The first step in brewing beer is mashing. This where we coax the sweet, sweet sugar out of malted barley.</p>
+							</div>
+							<div class="4u">
+								
+								<h3>Fill/Soak</h3>
+								<span class="image fit"><a href="#" class="image"><img src="http://placehold.it/200x140" alt=""></a></span>
+								<p>The barley is placed in a container called the mash tun. Grains are soaked inhot water for about an hour.</p>
+							</div>
+							<div class="4u">
+								
+								<h3>Sugar/Yeast</h3>
+								<span class="image fit"><a href="#" class="image"><img src="http://placehold.it/200x140" alt=""></a></span>
+								<p>During this process sugar is released from the grains, the sugar is later converted to alcohol thanks to our good old friend yeast.</p>
+							</div>
 						</div>
-						<div class="4u">
-							
-							<h3>Fill/Soak</h3>
-							<span class="image fit"><a href="#" class="image"><img src="http://placehold.it/200x140" alt=""></a></span>
-							<p>The barley is placed in a container called the mash tun. Grains are soaked inhot water for about an hour.</p>
-						</div>
-						<div class="4u">
-							
-							<h3>Sugar/Yeast</h3>
-							<span class="image fit"><a href="#" class="image"><img src="http://placehold.it/200x140" alt=""></a></span>
-							<p>During this process sugar is released from the grains, the sugar is later converted to alcohol thanks to our good old friend yeast.</p>
-						</div>
-					</div>
-				</section>
+					</section>
+				</div>
 			</div>
 
-			<div class="wrapper style4 mash">
-				<section class="container slide-bottom">
+			
+
+			<div class="wrapper style4 lautering">
+				<section class="container">
 					<header class="major">
 						<h2>Sparging & Lautering</h2>
 					</header>
@@ -253,7 +261,7 @@
 				</section>
 			</div>
 
-			<div class="wrapper style4 lautering">
+			<div class="wrapper style4">
 				<section class="container slide-bottom">
 					<header class="major">
 						<h2>Boiling</h2>

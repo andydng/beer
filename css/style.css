@@ -533,7 +533,7 @@
 			min-height:400px;
 		}
 
-		.wrapper.style3.hops img{
+		.wrapper.style3.hops img, .wrapper.style3.barley img{
 			width:40%;
 			margin-right:30%;
 			margin-left:30%;
@@ -959,5 +959,19 @@
 	body p{
 		font-weight: 500;
 	}
-
 	
+.parallax-window {
+    min-height: 600px;
+    background: transparent;
+}
+
+.dat {
+	position:absolute;
+	margin-top: -600px;
+}
+
+.bgnone {
+	position:absolute;
+	margin-top: -100%;
+	background-color:transparent !important;
+}
